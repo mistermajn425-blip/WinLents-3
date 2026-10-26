@@ -1,0 +1,20 @@
+[project]
+name = "winlents"
+version = "1.0.0"
+description = "WinLents — смотри, создавай, будь в тренде"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["flet==0.28.3"]
+
+[tool.flet]
+org = "com.winlents"
+product = "WinLents"
+company = "WinLents"
+copyright = "WinLents"
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.splash]
+color = "#000000"
+dark_color = "#000000"
